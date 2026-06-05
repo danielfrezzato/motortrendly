@@ -2250,7 +2250,7 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: opacity 0.8s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  transition: opacity 0.4s cubic-bezier(0.16, 1, 0.3, 1), visibility 0.4s cubic-bezier(0.16, 1, 0.3, 1);
   opacity: 1;
   visibility: visible;
   overflow: hidden;
@@ -2339,7 +2339,7 @@ footer {
   width: 0%;
   background: linear-gradient(90deg, rgb(var(--accent)) 0%, rgb(var(--accent-light)) 100%);
   border-radius: 4px;
-  animation: loadBar 2s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+  animation: loadBar 0.8s cubic-bezier(0.16, 1, 0.3, 1) forwards;
 }
 
 /* Animations */

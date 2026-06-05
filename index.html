@@ -83,10 +83,10 @@
           risolvi i problemi meccanici con l'aiuto dell'intelligenza artificiale e pianifica raduni mozzafiato su
           percorsi panoramici.</p>
         <div class="hero-cta">
-          <div class="btn btn-primary" style="cursor: default;">
-            <span class="material-symbols-outlined">event_upcoming</span> <span data-i18n="hero_cta_soon">Presto
-              Disponibile</span>
-          </div>
+          <a href="https://www.motortrendly.com" target="_blank" class="btn btn-primary">
+            <span class="material-symbols-outlined">science</span> <span data-i18n="hero_cta_soon">Prova
+              Ora</span>
+          </a>
         </div>
       </div>
       <div class="hero-mockup">
@@ -384,9 +384,17 @@
   <!-- Download CTA Section -->
   <section id="download" class="cta-banner">
     <div class="container cta-container">
-      <h2>MotorTrendly è in arrivo</h2>
-      <p>Presto disponibile! Unisciti alla più grande community di appassionati di auto e moto e preparati a
+      <h2>MotorTrendly è arrivato</h2>
+      <p>Prova ora! Unisciti alla più grande community di appassionati di auto e moto e preparati a
         vivere la tua passione ad un livello superiore!</p>
+
+      <!-- Call to Action -->
+      <div class="download-badges" style="margin-bottom: 3rem;">
+        <a href="https://www.motortrendly.com" target="_blank" class="btn btn-primary" style="display: inline-flex; align-items: center; gap: 0.6rem; text-decoration: none; padding: 0.8rem 2rem;">
+          <span class="material-symbols-outlined">science</span>
+          <span>Prova Ora</span>
+        </a>
+      </div>
 
       <!-- Social Media CTA -->
       <div class="social-cta">
@@ -532,7 +540,7 @@
         hero_badge: "🔥 Benvenuti nel Futuro dei Motori",
         hero_title: "L'era digitale dei motori è <span class=\"text-gradient\">MotorTrendly</span>",
         hero_desc: "Unisciti alla community definitiva per auto e moto. Gestisci il tuo garage virtuale, risolvi i problemi meccanici con l'aiuto dell'intelligenza artificiale e pianifica raduni mozzafiato su percorsi panoramici.",
-        hero_cta_soon: "Presto Disponibile",
+        hero_cta_soon: "Prova Ora",
         stat_users: "Utenti Attivi",
         stat_vehicles: "Garage Reali",
         stat_resolved: "Guasti Risolti",
@@ -1417,10 +1425,10 @@
     window.addEventListener('load', () => {
       const preloader = document.getElementById('preloader');
       if (preloader) {
-        // Organic premium delay
+        // Organic premium delay (reduced)
         setTimeout(() => {
           preloader.classList.add('fade-out');
-        }, 1200);
+        }, 300);
       }
     });
   </script>
